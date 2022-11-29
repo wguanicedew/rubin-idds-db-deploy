@@ -14,4 +14,4 @@ spec:
     protocol: TCP
     targetPort: 5432
   selector:
-    cnpg.io/poolerName: usdf-butler-pooler-rw
+    cnpg.io/poolerName: usdf-panda-idds-pooler-rw
