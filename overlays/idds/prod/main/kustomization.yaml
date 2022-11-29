@@ -10,7 +10,7 @@ resources:
 #- endpoints-patch.yaml
 
 secretGenerator:
-- name: usdf-panda-idds-prod-creds
+- name: usdf-panda-idds-creds
   options:
     disableNameSuffixHash: true
   files:
