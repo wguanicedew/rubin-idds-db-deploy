@@ -1,8 +1,8 @@
 
 This repo is a copy of the USDF butler Postgres infrastructure kubernetes manifests, 
-and modified to hold the Rubin USDF iDDS Postgres infrastructure kubernetes manifests.
+modified to hold the Rubin USDF PanDA & iDDS Postgres infrastructure kubernetes manifests.
 
-We use the cloudnative-pg operator in order to support a managed postgres service on our own infrastructure.
+We use the [cloudnative-pg operator](https://cloudnative-pg.io/) in order to support a managed postgres service on our own infrastructure.
 
 We need different kustomize overlays to present the postgres environments. For lack of imagination, we currently have a `prod` and `dev` environment.
 
